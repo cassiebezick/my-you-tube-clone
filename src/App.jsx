@@ -1,10 +1,11 @@
-import './App.css'
+import React from 'react'
+import Navbar from './Components/Navbar/Navbar'
 
-function App() {
+const App = () => {
   return (
-    <main>
-      <h1>YouTube Clone</h1>
-    </main>
+    <div>
+      <Navbar />
+    </div>
   )
 }
 
